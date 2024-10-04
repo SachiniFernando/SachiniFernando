@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Jyväskylä",
+			"country": {
+				"code": "FI",
+				"name": "Finland"
+			},
+			"subdivision": {
+				"code": "08",
+				"name": "Central Finland"
+			},
+			"timezone": "Europe/Helsinki",
+			"latitude": 62.2425,
+			"longitude": 25.7251,
+			"postalCode": "40700"
+		},
+		"timestamp": 1728063066920
+	}
+}

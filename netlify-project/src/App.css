@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Add this style to center the app */
+body {
+  display: flex; /* Use flexbox on the body */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default body margin */
+  background-color: #f0f0f0; /* Optional: Background color for the whole page */
+}
+
+.App {
+  max-width: 400px; /* Limit the width of the app */
+  margin: 0 auto; /* Center the app horizontally */
+  padding: 20px; /* Add padding around the content */
+  border: 1px solid #ccc; /* Add a border around the app */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #60bac6; /* Light background color */
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 8px; /* Add space below each label */
+  font-weight: bold; /* Make labels bold */
+}
+
+input {
+  width: 100%; /* Make inputs full-width */
+  padding: 10px; /* Add padding inside inputs */
+  margin-bottom: 16px; /* Add space below each input */
+  border: 1px solid #ccc; /* Add border to inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  box-sizing: border-box; /* Ensure padding is included in total width */
+}
+
+button {
+  background-color: #75afec; /* Bootstrap primary color */
+  color: rgb(12, 12, 12); /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for the button */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  display: block; /* Center the button below the inputs */
+  width: 100%; /* Full-width button */
+}
+
+button:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(3, 95, 109, 0.7);
+}
+
+p {
+  margin-top: 20px; /* Space above the result */
+  text-align: center; /* Center the result text */
+  font-size: 1.2em; /* Increase font size for result */
+  color: #333; /* Dark color for result text */
+}
